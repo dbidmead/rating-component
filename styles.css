@@ -16,7 +16,7 @@ body {
     font-family: "Overpass";
 }
 
-.rating-container {
+.container {
     background-color: var(--color-container);
     width: 415px;
     height: 415px;
@@ -42,8 +42,11 @@ body {
 
 h1 {
     color: white;
-    margin-left: 33px;
     font-size: 30px;
+}
+
+.rating-header {
+    margin-left: 33px;
 }
 
 .rating-title {
@@ -110,11 +113,47 @@ p {
     cursor: pointer;
 }
 
-.thank-you-container {
-    background-color: var(--color-container);
+#rating-container {
     display: none;
 }
 
+#thank-you-container {
+    background-color: var(--color-container);
+    /* display: none; */
+}
+
+.thank-you-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.rating-report {
+    color: var(--color-orange);
+    text-align: center;
+    background-color: var(--color-circle);
+    padding: 10px 20px;
+    border-radius: 18px;
+    margin-top: 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+
+.thank-you-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.thank-you-message {
+    text-align: center;
+    color: var(--color-text);
+    margin-left: 33px;
+    margin-right: 45px;
+    font-size: 16px;
+    line-height: 25px;
+}
 
 
 
