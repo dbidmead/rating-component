@@ -118,7 +118,6 @@ p {
 } */
 
 #thank-you-container {
-    background-color: var(--color-container);
     display: none;
 }
 
@@ -155,10 +154,6 @@ p {
     line-height: 25px;
 }
 
-
-
-
-
 .attribution { 
     font-size: 11px; text-align: center; 
     position: absolute;
@@ -169,4 +164,77 @@ p {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Mobile Support */
+
+@media (max-width: 500px) {
+    .container {
+        width: 350px;
+        height: 350px;
+    }
+
+    .star {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .rating-header {
+        margin-left: 25px;
+    }
+    
+    .rating-title {
+        margin-top: 15px;
+    }
+    
+    p {
+        margin-left: 25px;
+        margin-right: 45px;
+        line-height: 22px;
+    }
+
+    .rating-txt {
+        margin-top: -12px;
+        margin-bottom: 18px;
+    }
+
+    .rating-options {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: -8px;
+    }
+
+    .submit {
+        width: 300px;
+        margin-left: 25px;
+        position: absolute;
+        bottom: 22px;
+    }
+
+    /* Thank you component */
+
+    .thank-you-img {
+        margin-top: 30px;
+    }
+    
+    #rating-report {
+        font-size: 14px;
+        padding: 8px 15px;
+        border-radius: 18px;
+        margin-top: 22px;
+    }
+    
+    .thank-you-header {
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    
+    .thank-you-message {
+        margin-right: 33px;
+        margin-top: -8px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
 }
