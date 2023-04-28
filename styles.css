@@ -113,13 +113,13 @@ p {
     cursor: pointer;
 }
 
-#rating-container {
+/* #rating-container {
     display: none;
-}
+} */
 
 #thank-you-container {
     background-color: var(--color-container);
-    /* display: none; */
+    display: none;
 }
 
 .thank-you-img {
@@ -128,7 +128,7 @@ p {
     margin-top: 45px;
 }
 
-.rating-report {
+#rating-report {
     color: var(--color-orange);
     text-align: center;
     background-color: var(--color-circle);
